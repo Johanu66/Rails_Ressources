@@ -1,0 +1,1 @@
+https://prograide.com/pregunta/38491/psql-na-pas-pu-se-connecter-au-serveur--no-such-file-or-directory-5432-error

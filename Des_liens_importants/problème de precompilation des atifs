@@ -1,0 +1,5 @@
+Erreur:
+    Uglifier::Error: Unexpected token: keyword (const). To use ES6 syntax, harmony mode must be enabled with Uglifier.new(:harmony => true)
+
+Solution:
+    Dans le fichier config/environments/production, changer la ligne "config.assets.js_compressor = :uglifier" en "config.assets.js_compressor = Uglifier.new(harmony: true)"

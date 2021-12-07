@@ -1,0 +1,5 @@
+Procéder comme suit :
+    git config pull.rebase false
+    git pull origin main:main
+    git diff 8192a788fca62d080254d63a2f01756db1b21c6c
+    git reset --hard
